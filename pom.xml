@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.mengnan.mqtest</groupId>
+    <artifactId>mqtest</artifactId>
+    <version>1.0-SNAPSHOT</version>
+
+
+
+    <properties>
+        <java.version>1.8</java.version>
+        <mysql.jdbc.version>5.1.44</mysql.jdbc.version>
+        <tk-mybatis.version>1.1.4</tk-mybatis.version>
+        <pagehelper.version>1.1.3</pagehelper.version>
+        <boot-redis.version>1.4.2.RELEASE</boot-redis.version>
+        <spring-cloud.version>Dalston.SR2</spring-cloud.version>
+        <spring-cloud-starter-feign.version>1.3.2.RELEASE</spring-cloud-starter-feign.version>
+        <lombok.version>1.18.4</lombok.version>
+        <thumbnailator.version>0.4.8</thumbnailator.version>
+        <fastjson.version>1.2.33</fastjson.version>
+        <pagehelper.version>1.1.3</pagehelper.version>
+        <httpcomponents-httpclient>4.3.1</httpcomponents-httpclient>
+        <jsoup.version>1.9.2</jsoup.version>
+        <commons-lang3.version>3.0.1</commons-lang3.version>
+        <commons-fileupload.version>1.4</commons-fileupload.version>
+        <quartz.version>2.3.1</quartz.version>
+        <kotlin.version>1.3.61</kotlin.version>
+    </properties>
+
+
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>1.5.22.RELEASE</version>
+    </parent>
+
+
+    <dependencies>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-amqp</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+
+
+    </dependencies>
+
+</project>
